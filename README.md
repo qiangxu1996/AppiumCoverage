@@ -1,5 +1,8 @@
-# AppiumCoverage
-An Appium server for Android to generate JaCoCo coverage data
+# Appium Coverage
+
+An Appium server for Android to generate JaCoCo coverage data.
+
+This server app has zero runtime dependency, which eliminates the possibility of dependency conflict between this test driver and the target app, as both apps share the same classpath.
 
 ## Build
 
