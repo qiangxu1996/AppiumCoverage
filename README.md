@@ -22,7 +22,7 @@ This server app has zero runtime dependency, which eliminates the possibility of
 
 ### Pre-Instrument Your App
 
-For the Android instrumentation framework to collect coverage data, the app under test must be pre-instrumented before installed to the phone. A simple way is to add the following to your gradle script and execute the task `createDebugCoverageReport`.
+For the Android instrumentation framework to collect coverage data, the app under test must be pre-instrumented before installed to the phone. A simple way is to add the following to your gradle script and build the debug version (e.g., `assembleDebug`).
 
 ```groovy
 android {
